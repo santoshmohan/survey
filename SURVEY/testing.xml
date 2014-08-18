@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Survey Test" verbose="3" parallel="tests">
+	<parameter>name="appURL" value="https://docs.google.com/forms/d/1_Dqldp0BTVNUI5LHEw1CuZY5zR-eeuEUUvOGvnLjERg/viewform?c=0&w=1&usp=mail_form_link"</parameter>
+    <test name="Complete Survey in Firefox">
+    <parameter> name="browser" value="FF"</parameter>
+        <classes>
+            <class name="/SURVEY/src/test/java/au/myhome/test/WebDriverTest.java"/>
+        </classes>
+    </test>
+    <test name="Complete Survey in Chrome">
+     <parameter>name="browser" value="CC"</parameter> 
+        <classes>
+            <class name="/SURVEY/src/test/java/au/myhome/test/WebDriverTest.java"/>
+        </classes>
+    </test>
+</suite>

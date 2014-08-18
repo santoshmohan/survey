@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Fav Color : Green]]>
+    </line>
+    <line>
+      <![CDATA[Mothers Name : Barkly]]>
+    </line>
+    <line>
+      <![CDATA[Get Sons Name : Asleyee]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[Fav Color : Yellow]]>
+    </line>
+    <line>
+      <![CDATA[Mothers Name : Queen]]>
+    </line>
+    <line>
+      <![CDATA[Get Sons Name : Collin]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[Fav Color : Red]]>
+    </line>
+    <line>
+      <![CDATA[Mothers Name : Dockland]]>
+    </line>
+    <line>
+      <![CDATA[Get Sons Name : Kings]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[Fav Color : Green]]>
+    </line>
+    <line>
+      <![CDATA[Mothers Name : Barkly]]>
+    </line>
+    <line>
+      <![CDATA[Get Sons Name : Asleyee]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20026" started-at="2014-07-30T12:41:52Z" finished-at="2014-07-30T12:42:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20026" started-at="2014-07-30T12:41:52Z" finished-at="2014-07-30T12:42:12Z">
+      <class name="au.aemo.test.WebDriverTest">
+        <test-method status="PASS" signature="launchBroswer(java.lang.String)[pri:0, instance:au.aemo.test.WebDriverTest@3a5032fc]" name="launchBroswer" is-config="true" duration-ms="3029" started-at="2014-07-30T22:41:52Z" finished-at="2014-07-30T22:41:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBroswer -->
+        <test-method status="PASS" signature="newRegistrationUsingCSVFile(au.aemo.dataobject.RegistrationData)[pri:0, instance:au.aemo.test.WebDriverTest@3a5032fc]" name="newRegistrationUsingCSVFile" duration-ms="2646" started-at="2014-07-30T22:41:55Z" data-provider="regCSVData" finished-at="2014-07-30T22:41:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[au.aemo.dataobject.RegistrationData@4b9ba20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Fav Color : Green]]>
+            </line>
+            <line>
+              <![CDATA[Mothers Name : Barkly]]>
+            </line>
+            <line>
+              <![CDATA[Get Sons Name : Asleyee]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- newRegistrationUsingCSVFile -->
+        <test-method status="PASS" signature="closeBroswer(org.testng.ITestResult)[pri:0, instance:au.aemo.test.WebDriverTest@3a5032fc]" name="closeBroswer" is-config="true" duration-ms="87" started-at="2014-07-30T22:41:57Z" finished-at="2014-07-30T22:41:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newRegistrationUsingCSVFile status=SUCCESS method=WebDriverTest.newRegistrationUsingCSVFile(au.aemo.dataobject.RegistrationData)[pri:0, instance:au.aemo.test.WebDriverTest@3a5032fc] output=Fav Color : Green]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroswer -->
+        <test-method status="PASS" signature="launchBroswer(java.lang.String)[pri:0, instance:au.aemo.test.WebDriverTest@3a5032fc]" name="launchBroswer" is-config="true" duration-ms="2160" started-at="2014-07-30T22:41:57Z" finished-at="2014-07-30T22:42:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBroswer -->
+        <test-method status="PASS" signature="newRegistrationUsingCSVFile(au.aemo.dataobject.RegistrationData)[pri:0, instance:au.aemo.test.WebDriverTest@3a5032fc]" name="newRegistrationUsingCSVFile" duration-ms="2353" started-at="2014-07-30T22:42:00Z" data-provider="regCSVData" finished-at="2014-07-30T22:42:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[au.aemo.dataobject.RegistrationData@5788cdc1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Fav Color : Yellow]]>
+            </line>
+            <line>
+              <![CDATA[Mothers Name : Queen]]>
+            </line>
+            <line>
+              <![CDATA[Get Sons Name : Collin]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- newRegistrationUsingCSVFile -->
+        <test-method status="PASS" signature="closeBroswer(org.testng.ITestResult)[pri:0, instance:au.aemo.test.WebDriverTest@3a5032fc]" name="closeBroswer" is-config="true" duration-ms="86" started-at="2014-07-30T22:42:02Z" finished-at="2014-07-30T22:42:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newRegistrationUsingCSVFile status=SUCCESS method=WebDriverTest.newRegistrationUsingCSVFile(au.aemo.dataobject.RegistrationData)[pri:0, instance:au.aemo.test.WebDriverTest@3a5032fc] output=Fav Color : Yellow]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroswer -->
+        <test-method status="PASS" signature="launchBroswer(java.lang.String)[pri:0, instance:au.aemo.test.WebDriverTest@3a5032fc]" name="launchBroswer" is-config="true" duration-ms="2234" started-at="2014-07-30T22:42:02Z" finished-at="2014-07-30T22:42:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBroswer -->
+        <test-method status="PASS" signature="newRegistrationUsingCSVFile(au.aemo.dataobject.RegistrationData)[pri:0, instance:au.aemo.test.WebDriverTest@3a5032fc]" name="newRegistrationUsingCSVFile" duration-ms="2396" started-at="2014-07-30T22:42:04Z" data-provider="regCSVData" finished-at="2014-07-30T22:42:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[au.aemo.dataobject.RegistrationData@2b3cbfb2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Fav Color : Red]]>
+            </line>
+            <line>
+              <![CDATA[Mothers Name : Dockland]]>
+            </line>
+            <line>
+              <![CDATA[Get Sons Name : Kings]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- newRegistrationUsingCSVFile -->
+        <test-method status="PASS" signature="closeBroswer(org.testng.ITestResult)[pri:0, instance:au.aemo.test.WebDriverTest@3a5032fc]" name="closeBroswer" is-config="true" duration-ms="83" started-at="2014-07-30T22:42:07Z" finished-at="2014-07-30T22:42:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newRegistrationUsingCSVFile status=SUCCESS method=WebDriverTest.newRegistrationUsingCSVFile(au.aemo.dataobject.RegistrationData)[pri:0, instance:au.aemo.test.WebDriverTest@3a5032fc] output=Fav Color : Red]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroswer -->
+        <test-method status="PASS" signature="launchBroswer(java.lang.String)[pri:0, instance:au.aemo.test.WebDriverTest@3a5032fc]" name="launchBroswer" is-config="true" duration-ms="2345" started-at="2014-07-30T22:42:07Z" finished-at="2014-07-30T22:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBroswer -->
+        <test-method status="PASS" signature="testRegisration(au.aemo.dataobject.RegistrationData)[pri:0, instance:au.aemo.test.WebDriverTest@3a5032fc]" name="testRegisration" duration-ms="2475" started-at="2014-07-30T22:42:09Z" data-provider="regData" finished-at="2014-07-30T22:42:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[au.aemo.dataobject.RegistrationData@1c81c2fa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Fav Color : Green]]>
+            </line>
+            <line>
+              <![CDATA[Mothers Name : Barkly]]>
+            </line>
+            <line>
+              <![CDATA[Get Sons Name : Asleyee]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRegisration -->
+        <test-method status="PASS" signature="closeBroswer(org.testng.ITestResult)[pri:0, instance:au.aemo.test.WebDriverTest@3a5032fc]" name="closeBroswer" is-config="true" duration-ms="98" started-at="2014-07-30T22:42:12Z" finished-at="2014-07-30T22:42:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisration status=SUCCESS method=WebDriverTest.testRegisration(au.aemo.dataobject.RegistrationData)[pri:0, instance:au.aemo.test.WebDriverTest@3a5032fc] output=Fav Color : Green]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroswer -->
+      </class> <!-- au.aemo.test.WebDriverTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
